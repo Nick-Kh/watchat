@@ -15,7 +15,7 @@ setInterval(() => {
 let users = [
   {
     _id: getRandomNumber(100, 999999).toString(),
-    username: 'Georgee',
+    username: 'George',
     room: '5f711660f739d8b9f62c21d7',
     avatar:
       'https://res.cloudinary.com/dl5mlxukz/image/upload/v1601405764/watchat/user32_sombxr.png',
