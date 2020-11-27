@@ -1,0 +1,28 @@
+.toolbar {
+  display: flex;
+  background: black;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 25%;
+  border-bottom: deeppink 1px solid;
+
+  .toolbar-icon {
+    color: white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    transition: 0.3s;
+
+    &:hover {
+      // background: #f3f3f3;
+      color: deeppink;
+      cursor: pointer;
+    }
+  }
+}

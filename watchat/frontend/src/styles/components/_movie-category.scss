@@ -1,0 +1,6 @@
+.movie-category {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+  background-position-y: 10%;
+}

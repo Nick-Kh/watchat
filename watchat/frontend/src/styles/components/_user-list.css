@@ -1,0 +1,85 @@
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 100%;
+  background: black;
+  position: relative;
+}
+
+.user-list {
+  /* margin-top: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-self: end;
+  height: 70%;
+  width: 100%;
+  background: black;
+  box-shadow: 4px 10px 10px -11px rgba(0, 0, 0, 0.75);
+  /* flex-wrap: wrap; */
+}
+
+.users-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.user-arrow {
+  color: white;
+  width: 10%;
+  height: 10%;
+  transition: 0.3s;
+  margin-bottom: 25px;
+}
+
+.disabled-arrow {
+  color: darkgray;
+  /* cursor: auto; */
+}
+
+.user-arrow:hover {
+  color: maroon;
+  cursor: pointer;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 500ms, transform 300ms;
+}
+
+.total-users {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  color: deeppink;
+  /* color: white; */
+  font-size: 0.7rem;
+  /* font-weight: bold; */
+  top: 2%;
+  right: 2%;
+  transition: 0.5s;
+}
+
+/* @media screen and (max-width: 800px) {
+  .user-list {
+    flex-wrap: wrap;
+  }
+} */

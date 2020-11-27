@@ -1,0 +1,95 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    111deg,
+    rgb(185, 28, 107),
+    rgb(180, 0, 0),
+    rgb(58, 0, 0)
+  );
+  min-height: 450px;
+  color: $clr9;
+  width: 100%;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-txt {
+  margin-top: 50px;
+}
+.login-txt-btn {
+  position: relative;
+  margin-top: 10px;
+  align-self: center;
+  border: 1px solid;
+  padding: 10px;
+  z-index: 1;
+}
+.login-input {
+  position: relative;
+  z-index: 1;
+}
+.login-btn {
+  border: 1px solid white;
+  color: $clr9;
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(111deg, rgb(230, 3, 79), rgb(224, 34, 0));
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.login-btn:hover {
+  border: 1px solid darken($clr3, 2%);
+  color: white;
+  background-color: darken($clr3, 2%);
+  font-size: 15px;
+}
+
+.login-title {
+  margin: 20px 10px 10px 10px;
+  color: $clr9;
+}
+.mag {
+  color: $clr9;
+  font-size: 14px;
+}
+.guest-addFav-txt {
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
+.guest-addFav-bigger-txt {
+  font-size: 30px;
+}
+.guest-addFav-center-txt {
+  text-align: center;
+  line-height: 1.8;
+}
+.hide-txt {
+  display: none;
+}
+.welcome-txt {
+  text-align: center;
+}
+.welcome-txt2 {
+  font-size: 16px;
+  line-height: 1.7;
+}

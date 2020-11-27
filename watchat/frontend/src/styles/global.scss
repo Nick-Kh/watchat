@@ -1,0 +1,52 @@
+// Setup
+@import 'setup/variables.scss';
+@import 'setup/functions.scss';
+@import 'setup/mixins.scss';
+@import 'setup/typography.scss';
+
+// Basics
+@import 'basics/helpers.scss';
+@import 'basics/layout.scss';
+@import 'basics/base.scss';
+@import 'basics/links.scss';
+@import 'basics/buttons.scss';
+@import 'basics/inputs.scss';
+
+// Components
+// @import 'components/main-header.scss';
+@import 'components/navbar.scss';
+@import 'views/home-page.scss';
+@import 'components/chat.scss';
+@import 'components/video-controls.scss';
+@import 'components/reaction-picker.scss';
+@import '../styles/components/_user-list.css';
+@import 'components/user-preview.scss';
+@import 'components/movie-list.scss';
+@import 'components/movie-preview.scss';
+@import 'components/movie-loader.scss';
+@import 'components/toolbar.scss';
+@import 'components/movie-category.scss';
+
+// @import "views/movie-deatails.scss";
+// @import "components/main-header.scss";
+// @import "components/main-header.scss";
+// @import "views/about-page.scss";
+// @import "views/toy-page.scss";
+// @import "views/home-page.scss";
+// @import "views/details-page.scss";
+@import 'views/modal.scss';
+@import 'views/login-page.scss';
+@import 'components/navbar-user-section.scss';
+@import 'views/room-page.scss'; // @import "components/chat.scss";
+@import 'views/details-page.scss';
+@import 'views/modal.scss';
+@import 'views/login-page.scss';
+@import 'components/navbar-user-section.scss';
+@import 'components/navbar-search-input.scss';
+@import 'components/side-navigation.scss';
+@import 'views/home-movies.scss';
+@import 'views/home-main-section.scss';
+@import 'components/cinema-cards.scss';
+@import 'components/movie-slider.scss';
+@import 'components/notificationBell.scss';
+// @import "components/chat.scss";
